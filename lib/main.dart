@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 void main(){
   runApp(const MyApp());
 }
@@ -52,8 +53,8 @@ class MyApp extends StatelessWidget{
               children: [
                customWidget(const Color.fromARGB(255, 154, 234, 122)),
                customWidget(const Color.fromARGB(255, 22, 78, 0)),
-                 customCircleWidget(const Color.fromARGB(255, 193, 240, 174)),
-                customCircleWidget(const Color.fromARGB(255, 193, 240, 174)),
+                 customCircleWidget(const Color.fromARGB(255, 193, 240, 174),const Color.fromARGB(255, 17, 49, 2)),
+                customCircleWidget(const Color.fromARGB(255, 193, 240, 174),const Color.fromARGB(255, 17, 49, 2)),
                   customWidget(const Color.fromARGB(255, 22, 78, 0)),
                     customWidget(const Color.fromARGB(255, 154, 234, 122)),
               ],
@@ -62,8 +63,8 @@ class MyApp extends StatelessWidget{
               children: [
               customWidget(const Color.fromARGB(255, 154, 234, 122)),
               customWidget(const Color.fromARGB(255, 22, 78, 0)),
-               customCircleWidget(const Color.fromARGB(255, 193, 240, 174)),
-                customCircleWidget(const Color.fromARGB(255, 193, 240, 174)),
+                 customCircleWidget(const Color.fromARGB(255, 193, 240, 174),const Color.fromARGB(255, 17, 49, 2)),
+                  customCircleWidget(const Color.fromARGB(255, 193, 240, 174),const Color.fromARGB(255, 17, 49, 2)),
                   customWidget(const Color.fromARGB(255, 22, 78, 0)),
                     customWidget(const Color.fromARGB(255, 154, 234, 122)),
               ],
@@ -87,6 +88,104 @@ class MyApp extends StatelessWidget{
                customWidget(const Color.fromARGB(255, 154, 234, 122)),
                customWidget(const Color.fromARGB(255, 154, 234, 122)),
                customWidget(const Color.fromARGB(255, 154, 234, 122)),
+              ],
+           
+            ),
+             Column(
+              children: [
+               customWidget(Colors.white),
+               customWidget(Colors.white),
+               customWidget(const Color.fromARGB(255, 68, 66, 66)),
+               customWidget(Colors.white),
+               customWidget(Colors.white),
+               customWidget(Colors.white),
+         
+              ],
+           
+            ),
+              Column(
+              children: [
+               customWidget(Colors.white),
+               customWidget(Colors.orange),
+               customWidget(Colors.orange),
+                customWidget(Colors.orange),
+               customWidget(Colors.orange),
+               customWidget(Colors.orange),
+            
+              ],
+           
+            ),
+              Column(
+              children: [
+               customWidget(Colors.white),
+               customWidget(Colors.orange),
+               customWidget(Colors.white),
+               customWidget(Colors.white),
+               customWidget(Colors.white),
+               customWidget(Colors.white),
+              ],
+           
+            ),
+              Column(
+              children: [
+              customWidget(Colors.yellow),
+               customWidget(Colors.yellow),
+               customWidget(Colors.yellow),
+               customWidget(Colors.yellow),
+               customWidget(Colors.yellow),
+               customWidget(Colors.yellow),
+              ],
+           
+            ),
+            Column(
+              children: [
+             customWidget(Colors.yellow),
+               customWidget(Colors.orange),
+                 customWidget(Colors.orange),
+                 customWidget(Colors.orange),
+                 customWidget(Colors.orange),
+              customWidget(Colors.yellow),
+              ],
+           
+            ), Column(
+              children: [
+               customWidget(Colors.yellow),
+               customWidget(Colors.orange),
+                  customCircleWidget(const Color.fromARGB(255, 193, 240, 174), Colors.red),
+                  customCircleWidget(const Color.fromARGB(255, 193, 240, 174),Colors.red),
+                 customWidget(Colors.orange),
+                  customWidget(Colors.yellow),
+              ],
+           
+            ), Column(
+              children: [
+              customWidget(Colors.yellow),
+           customWidget(Colors.orange),
+                 customCircleWidget(const Color.fromARGB(255, 193, 240, 174), Colors.red),
+                                  customCircleWidget(const Color.fromARGB(255, 193, 240, 174),Colors.red),
+                 customWidget(Colors.orange),
+                  customWidget(Colors.yellow),
+              ],
+           
+            ),Column(
+              children: [
+               customWidget(Colors.yellow),
+            customWidget(Colors.orange),
+                 customWidget(Colors.orange),
+                 customWidget(Colors.orange),
+                   customWidget(Colors.orange),
+                   customWidget(Colors.yellow),
+              ],
+           
+            ),
+            Column(
+              children: [
+              customWidget(Colors.yellow),
+               customWidget(Colors.yellow),
+               customWidget(Colors.yellow),
+               customWidget(Colors.yellow),
+               customWidget(Colors.yellow),
+               customWidget(Colors.yellow),
               ],
            
             ),
@@ -116,7 +215,7 @@ Widget customWidget(color)
   );
 }
 
-Widget customCircleWidget(Color color){
+Widget customCircleWidget(Color color,Color circleColor){
   return Container(
     width:20,height:20,
     decoration:BoxDecoration(
@@ -125,10 +224,10 @@ Widget customCircleWidget(Color color){
     ),
        child: Center(
       child: Container(
-        height: 20,
-        width: 20,
-        decoration:const BoxDecoration(
-          color: Color.fromARGB(255, 17, 49, 2), // Circle color
+        height: 15,
+        width:15,
+        decoration: BoxDecoration(
+          color: circleColor, // Circle color
           shape: BoxShape.circle, // Makes the container a circle
         ),
       ),
