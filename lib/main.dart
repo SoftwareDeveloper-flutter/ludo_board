@@ -16,13 +16,15 @@ class MyApp extends StatelessWidget{
             backgroundColor:const Color.fromARGB(255, 3, 115, 160),
             title:const Text("Ludo Board Game",style:TextStyle(color:Colors.white))
             ),
-            body:Container(
+            body: Padding(
+            padding:const EdgeInsets.only(top: 50),
+            child:Container(
            padding: EdgeInsets.zero,
           margin: EdgeInsets.zero,
             decoration: BoxDecoration(
               border: Border.all(
                 color: const Color.fromARGB(255, 0, 0, 0),  
-                width: 6,       
+                width:0.5,       
               ),
             ),
               
@@ -36,6 +38,15 @@ class MyApp extends StatelessWidget{
               customWidget(const Color.fromARGB(255, 154, 234, 122)),
               customWidget(const Color.fromARGB(255, 154, 234, 122)),
               customWidget(const Color.fromARGB(255, 154, 234, 122)),
+              customWidget(Colors.white),
+              customWidget(Colors.white),
+              customWidget(Colors.white),
+              customWidget(Colors.red),
+              customWidget(Colors.red),
+              customWidget(Colors.red),
+              customWidget(Colors.red),
+              customWidget(Colors.red),
+              customWidget(Colors.red),
               ],
            
             ),
@@ -194,6 +205,7 @@ class MyApp extends StatelessWidget{
     
             ),
             
+      ),
       ),
     );
   }
