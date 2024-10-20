@@ -214,6 +214,11 @@ class MyApp extends StatelessWidget{
                      customWidget(const Color.fromARGB(255, 0, 121, 161)),
                     customWidget(Colors.white),
                      customWidget(Colors.blue),
+                            customWidget(const Color.fromARGB(255, 0, 121, 161)),
+                  customWidget(const Color.fromARGB(255, 0, 121, 161)),
+                     customWidget(const Color.fromARGB(255, 0, 121, 161)),
+                  customWidget(const Color.fromARGB(255, 0, 121, 161)),
+                  customWidget(Colors.blue),
               ],
            
             ), Column(
@@ -228,6 +233,11 @@ class MyApp extends StatelessWidget{
                          customWidget(const Color.fromARGB(255, 0, 121, 161)),
                     customWidget(Colors.white),
                      customWidget(Colors.blue),
+                     customWidget(const Color.fromARGB(255, 0, 121, 161)),
+                           customCircleWidget(const Color.fromARGB(255, 193, 240, 174), Colors.blue),
+                                  customCircleWidget(const Color.fromARGB(255, 193, 240, 174),Colors.blue),
+                                   customWidget(const Color.fromARGB(255, 0, 121, 161)),
+                  customWidget(Colors.blue),
               ],
            
             ), Column(
@@ -242,6 +252,11 @@ class MyApp extends StatelessWidget{
                     customWidget(const Color.fromARGB(255, 0, 121, 161)),
                     customWidget(Colors.white),
                      customWidget(Colors.blue),
+                     customWidget(const Color.fromARGB(255, 0, 121, 161)),
+                      customCircleWidget(const Color.fromARGB(255, 193, 240, 174), Colors.blue),
+                                  customCircleWidget(const Color.fromARGB(255, 193, 240, 174),Colors.blue),
+                                   customWidget(const Color.fromARGB(255, 0, 121, 161)),
+                  customWidget(Colors.blue),
               ],
            
             ),Column(
