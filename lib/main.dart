@@ -155,7 +155,17 @@ class MyApp extends StatelessWidget{
                customWidget(Colors.white),
                customWidget(Colors.white),
                customWidget(Colors.white),
-         
+
+               
+                customWidgetBorderless(Colors.white),
+               customWidgetBorderless(Colors.white),
+               customWidgetBorderless(Colors.white),
+                customWidget(Colors.white),
+               customWidget(Colors.white),
+               customWidget(Colors.white),
+            customWidget(Colors.white),
+          customWidget(const Color.fromARGB(255, 98, 10, 4)),
+            customWidget(Colors.white),
               ],
            
             ),
@@ -167,6 +177,15 @@ class MyApp extends StatelessWidget{
                 customWidget(Colors.orange),
                customWidget(Colors.orange),
                customWidget(Colors.orange),
+                 customWidgetBorderless(Colors.white),
+               customWidgetBorderless(Colors.white),
+               customWidgetBorderless(Colors.white),
+                customWidget(const Color.fromARGB(255, 98, 10, 4)),
+                customWidget(const Color.fromARGB(255, 98, 10, 4)),
+                customWidget(const Color.fromARGB(255, 98, 10, 4)),
+                customWidget(const Color.fromARGB(255, 98, 10, 4)),
+                customWidget(const Color.fromARGB(255, 98, 10, 4)),
+            customWidget(Colors.white),
             
               ],
            
@@ -178,6 +197,15 @@ class MyApp extends StatelessWidget{
                customWidget(Colors.white),
                customWidget(Colors.white),
                customWidget(Colors.white),
+               customWidget(Colors.white),
+                 customWidgetBorderless(Colors.white),
+               customWidgetBorderless(Colors.white),
+               customWidgetBorderless(Colors.white),
+                customWidget(Colors.white),
+               customWidget(Colors.white),
+               customWidget(Colors.white),
+                customWidget(const Color.fromARGB(255, 68, 66, 66)),
+                 customWidget(Colors.white),
                customWidget(Colors.white),
               ],
            
@@ -343,5 +371,18 @@ Widget customCircleWidget(Color color,Color circleColor){
         ),
       ),
       ),
+  );
+}
+
+
+Widget customWidgetBorderless(color)
+{
+  return Container(
+    height:20,
+    width: 20,
+    color: color,
+  
+  
+  
   );
 }
