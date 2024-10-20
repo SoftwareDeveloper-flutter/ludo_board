@@ -190,6 +190,15 @@ class MyApp extends StatelessWidget{
                customWidget(Colors.yellow),
                customWidget(Colors.yellow),
                customWidget(Colors.yellow),
+               customWidget(Colors.white),
+              customWidget(const Color.fromARGB(255, 0, 121, 161)),
+               customWidget(Colors.white),
+                 customWidget(Colors.blue),
+              customWidget(Colors.blue),
+              customWidget(Colors.blue),
+              customWidget(Colors.blue),
+              customWidget(Colors.blue),
+              customWidget(Colors.blue),
               ],
            
             ),
@@ -201,6 +210,10 @@ class MyApp extends StatelessWidget{
                  customWidget(Colors.orange),
                  customWidget(Colors.orange),
               customWidget(Colors.yellow),
+              customWidget(Colors.white),
+                     customWidget(const Color.fromARGB(255, 0, 121, 161)),
+                    customWidget(Colors.white),
+                     customWidget(Colors.blue),
               ],
            
             ), Column(
@@ -211,6 +224,10 @@ class MyApp extends StatelessWidget{
                   customCircleWidget(const Color.fromARGB(255, 193, 240, 174),Colors.red),
                  customWidget(Colors.orange),
                   customWidget(Colors.yellow),
+                  customWidget(Colors.white),
+                         customWidget(const Color.fromARGB(255, 0, 121, 161)),
+                    customWidget(Colors.white),
+                     customWidget(Colors.blue),
               ],
            
             ), Column(
@@ -221,6 +238,10 @@ class MyApp extends StatelessWidget{
                                   customCircleWidget(const Color.fromARGB(255, 193, 240, 174),Colors.red),
                  customWidget(Colors.orange),
                   customWidget(Colors.yellow),
+                    customWidget(const Color.fromARGB(255, 68, 66, 66)),
+                    customWidget(const Color.fromARGB(255, 0, 121, 161)),
+                    customWidget(Colors.white),
+                     customWidget(Colors.blue),
               ],
            
             ),Column(
@@ -231,6 +252,15 @@ class MyApp extends StatelessWidget{
                  customWidget(Colors.orange),
                    customWidget(Colors.orange),
                    customWidget(Colors.yellow),
+                    customWidget(Colors.white),
+                    customWidget(const Color.fromARGB(255, 0, 121, 161)),
+                  customWidget(const Color.fromARGB(255, 0, 121, 161)),
+                   customWidget(Colors.blue),
+                      customWidget(const Color.fromARGB(255, 0, 121, 161)),
+                  customWidget(const Color.fromARGB(255, 0, 121, 161)),
+                     customWidget(const Color.fromARGB(255, 0, 121, 161)),
+                  customWidget(const Color.fromARGB(255, 0, 121, 161)),
+                  customWidget(Colors.blue),
               ],
            
             ),
